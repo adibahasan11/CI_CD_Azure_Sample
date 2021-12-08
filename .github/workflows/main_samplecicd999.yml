@@ -7,12 +7,10 @@ on:
   push:
     branches:
       - main
-  push:
+  pull_request:
     branches:
-      - sample
-  push:
-    branches:
-      - adiba
+      - main
+
   workflow_dispatch:
 
 jobs:
