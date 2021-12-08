@@ -7,6 +7,12 @@ on:
   push:
     branches:
       - main
+  push:
+    branches:
+      - sample
+  push:
+    branches:
+      - adiba
   workflow_dispatch:
 
 jobs:
